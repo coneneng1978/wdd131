@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Connie Cruz Aunario | WDD 131 | ElectroMastery Hub | Contact Us </title>
+    <meta name="description" content="This page is for contacting ElectroMastery Hub Company.">
+    <meta name="author" content="Connie Aunario">
+    <link rel="stylesheet" href="styles/filtered-electro.css">
+    <link rel="stylesheet" href="styles/filtered-electro-large.css">
+    <link rel="stylesheet" href="styles/final_project.css">
+    <script defer src="scripts/final_project.js"></script>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">-->
+
+    <style>
+        header {
+            background: url('images/home_electro.jpg') center/cover no-repeat;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            height: 480px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-banner">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Fees</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="contact-icons">
+            <a href="tel:+11234567890"><i class="fas fa-phone-alt"></i> +09 (765) 4321</a>
+            <a href="#"><i class="fas fa-comment-alt"></i> Live Chat</a>
+            <a href="https://coneneng1978.github.io/wdd131/"><i class="fas fa-info-circle"></i> Info</a>
+        </div>
+    </div>
+
+    <div class="secondary-banner">
+
+        <button class="book-now-btn" onclick="window.location.href='contact.html'">Join Now</button>
+    </div>
+
+    <header>
+        <img src="images/logo_circle_black_.png" alt="Your Logo" class="logo">
+        <h1>ElectroMastery Hub</h1>
+    </header>
+
+    <main>
+
+        <div class="hero">
+
+            <article>
+                <h6>.</h6>
+                <img src="images/contact.jpg" alt="ElectroMastery Employees">
+                <p>Explore ElectroMastery Hub, your premier destination for mastering electrical engineering. Whether
+                    you're a novice enthusiast or a seasoned professional, we offer comprehensive resources and
+                    tutorials tailored to empower your journey in electrical engineering. From foundational concepts to
+                    advanced applications, our curated content ensures you gain the skills and knowledge needed to excel
+                    in the field.</p>
+            </article>
+        </div>
+
+    </main>
+
+    <section id="history">
+        <h2 style="color: rgb(208, 102, 9);">Where To Find Us</h2>
+    </section>
+
+    <div class="body">
+
+        <div class="map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4396.609598810049!2d122.93062354681707!3d10.425598859136976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sph!4v1721538369325!5m2!1sen!2sph"
+                width="450" height="350" style="border:1px;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+        <div class="body-image">
+
+            <img src="images/center-pic_.jpg" alt="Body Image">
+        </div>
+        <div class="body-text-2">
+            <p>
+                <strong><u style="color: orange;">Contact Information</u></strong><br><br>
+                <strong>Email:</strong> <a
+                    href="mailto:info@electromasteryhub.com">info@electromasteryhub.com</a><br><br>
+                <strong>Phone:</strong> +63945 345 1133<br><br>
+                <strong>Project Location:</strong> San Marcelino St. Ayala Blvd., Ermita Manila, Philippines<br><br>
+            </p>
+            <strong>Manila Office:</strong>San Marcelino St, Ermita, Manila, Philippines<br><br></p>
+            <strong>Brunei Office:</strong> Jalan Sultan, Kampor Ayer, Bendar Seri Begawan, Brunei Darusssalam
+            </p>
+        </div>
+    </div>
+
+    <section id="adventure">
+        <h2 style="color: rgb(208, 102, 9);">Get in Touch</h2>
+    </section>
+
+
+    <div class="container">
+        <h4>Contact Information</h4>
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Type your email address here..">
+
+            <label for="Purpose">Purpose of the Message</label>
+            <select id="Purpose" name="Purpose">
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Reservation request">Reservation Request</option>
+                <option value="Website Suggestion">Website Suggestion</option>
+            </select>
+
+            <!-- Add these radio buttons -->
+            <label>Preferred Contact Method:</label>
+            <input type="radio" id="contact-email" name="contact-method" value="email">
+            <label for="contact-email">Email</label>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+            <label for="contact-phone">Phone</label>
+            <input type="radio" id="contact-none" name="contact-method" value="none">
+            <label for="contact-none">None</label>
+
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+            <label for="newsletter">Subscribe to the monthly newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+
+            <button type="submit">Please Proceed</button>
+        </form>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-left">
+            <p>&copy; <span id="currentyear"></span> <span class="footer-name"><img src="images/floral-garland_nbg.png"
+                        alt="flower-icon" class="flower-icon">Connie C. Aunario</span> <img
+                    src="images/floral-garland_nbg.png" alt="basketball-icon" class="basketball-icon"> Philippines</p>
+            <p id="lastModified" class="highlight"></p>
+        </div>
+        <div class="footer-right">
+            <div class="social-icons">
+                <nav class="sociallink">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.svg" alt="Instagram">
+                    </a>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script>
+        // Get current year
+        document.getElementById('currentyear').textContent = new Date().getFullYear();
+
+        // Get last modified date of the document
+        var lastModified = document.lastModified;
+        document.getElementById('lastModified').textContent = 'Last modified: ' + lastModified;
+    </script>
+</body>
+
+</html>

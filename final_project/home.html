@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapters - WDD 131 - Dynamic Web Fundamentals - Connie C. Aunario</title>
+    <meta name="description" content="Chapter Album - WDD 131 - Dynamic Web Fundamentals - Connie C. Aunario">
+    <meta name="author" content="Connie C. Aunario">
+    <link rel="stylesheet" href="styles/filtered-electro.css">
+    <link rel="stylesheet" href="styles/final_project.css">
+    <link rel="stylesheet" href="styles/filtered-electro-large.css" media="screen and (min-width: 768px)">
+    <script defer src="scripts/final_project.js"></script>
+    <style>
+        header {
+            background: url('images/home_electro.jpg') center/cover no-repeat;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            height: 480px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="burger-nav">
+        <div class="top-banner">
+            <div class="ref-icons">
+                <ul>
+                    <li><a href="https://www.iiee.org.ph/">IIEE Philippines</a></li>
+                    <li><a href="https://www.upcatreview.com/">Reviews</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="contact-icons">
+                <a href="tel:+11234567890"><i class="fas fa-phone-alt"></i> +09 (765) 4321</a>
+                <a href="#"><i class="fas fa-comment-alt"></i> Live Chat</a>
+                <a href="https://coneneng1978.github.io/wdd131/"><i class="fas fa-info-circle"></i> Info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="secondary-banner">
+        <button class="book-now-btn" onclick="window.location.href='contact.html'">Join Now</button>
+    </div>
+
+    <header>
+        <img src="images/logo_circle_black_.png" alt="ElectroMastery Hub" class="logo">
+        <h1>ElectroMastery Hub</h1>
+        <p>Wired for Success. Learn. Share. Grow Together</p>
+        <a href="#" class="find-price-btn">Find Your Solutions</a>
+    </header>
+
+    <div class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+    </div>
+
+    <main>
+        <fieldset>
+            <div style="text-align: center; margin-top: 20px;">
+                <button onclick="toggleSection('start')">Study Guide/Tutorial</button>
+                <button onclick="toggleSection('installation')">Attributions</button>
+                <button onclick="toggleSection('projects')">Community Chapters</button>
+                <button onclick="toggleSection('subscribe')">Subscribe</button>
+            </div>
+        </fieldset>
+
+        <section id="start" style="display:none;">
+            <fieldset>
+                <div class="reservation-box">
+                    <h2>Study Guides</h2>
+                    <p>Your gateway to mastering electronics with precision and ease at ElectroMastery Hub. Our curated
+                        study guides distill complex electrical concepts into clear, concise resources designed to
+                        empower learners at every level.</p>
+                    <button class="book-now-btn" onclick="window.location.href='contact.html'">Join Now</button>
+                </div>
+                <div class="activity-preparation-box">
+                    <h2>Tutorials</h2>
+                    <p>Your portal to practical, hands-on learning at ElectroMastery Hub. Our tutorials are crafted to
+                        demystify complex electronics concepts and equip learners with the skills needed to thrive in
+                        the field. </p>
+                    <button class="get-started-btn" onclick="window.location.href='contact.html'">Get Started</button>
+                </div>
+            </fieldset>
+        </section>
+
+        <div class="grid-container">
+            <!-- Grid items remain unchanged -->
+        </div>
+
+        <div class="row-container">
+            <!-- Newsletter form and YouTube video columns remain unchanged -->
+        </div>
+
+        <section id="installation" style="display:none;">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/EEVlog.jpg" alt="Attribution 1">
+                    <h3>EEVblog Tutorial</h3>
+                    <p> EEVblog, short for Electronics Engineering Video Blog, is a long-running YouTube channel created
+                        and hosted by Dave Jones, an Australian electronics engineer. Since its inception in 2009, the
+                        channel has gained a substantial following within the electronics engineering community and
+                        beyond.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/foolish_engineer.jpg" alt="Attribution 2">
+                    <h3>The Foolish Engineer Tutorial</h3>
+                    <p>A YouTube channel created by an enthusiastic engineer who goes by the pseudonym of "The Foolish
+                        Engineer." The channel features a unique blend of humor, creativity, and informative content
+                        focused on engineering principles, projects, and real-world applications.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/12voltvids.jpg" alt="Attribution 3">
+                    <h3>12VoltVids</h3>
+                    <p>A specialized YouTube channel that dives deep into the realm of 12-volt electrical systems used
+                        in automotive vehicles, boats, RVs, and related applications. The channel provides a blend of
+                        educational content, practical demonstrations, and insightful reviews aimed at enthusiasts,
+                        professionals, and DIYers alike.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/great_scott.jpg" alt="Attribution 4">
+                    <h3>Great Scott Tutorial</h3>
+                    <p>A popular YouTube channel hosted by Scott, known for his passion for electronics, DIY projects,
+                        and educational content related to technology. Scott offers detailed tutorials on fundamental
+                        electronics principles such as circuit design, component selection, soldering techniques, and
+                        troubleshooting. He also conducts experiments to demonstrate various electronic phenomena and
+                        principles.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/electroBoom.jpg" alt="Attribution 4">
+                    <h3>ElectroBoom Tutorial</h3>
+                    <p>A highly popular and entertaining YouTube channel hosted by Mehdi Sadaghdar, known for its
+                        humorous take on electronics and engineering. It often features humorous yet informative videos
+                        where Mehdi demonstrates common mistakes in electronics, electrical safety precautions, and the
+                        consequences of improper handling of electronic components.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/engineering_mindset.jpg" alt="Attribution 4">
+                    <h3>Engineering Mindset Tutorial</h3>
+                    <p>Engineering Mindset offers detailed tutorials and step-by-step guides on topics ranging from HVAC
+                        systems, electrical installations, plumbing, to structural engineering. These tutorials are
+                        designed for both students and professionals in the field.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe" style="display:none;">
+            <div class="row-container">
+                <div class="left-column">
+                    <div id="newsletter-form">
+                        <h2>Subscribe to Our Newsletter</h2>
+                        <form action="#" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xoiaIwIMOu0?si=A4VbRApRdy-ZQMUz
+" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" style="display:none;">
+            <fieldset>
+                <nav>
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Old</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Large</a></li>
+                        <li><a href="#">Small</a></li>
+                    </ul>
+                </nav>
+                <h2>.</h2>
+                <section id="gallery" class="gallery"></section>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <p>&copy; <span id="currentyear"></span> <span class="footer-name"><img src="images/floral-garland_nbg.png"
+                        alt="flower-icon" class="flower-icon">Connie C. Aunario</span> <img
+                    src="images/floral-garland_nbg.png" alt="flower-icon" class="flower-icon"> Philippines</p>
+            <p id="lastModified" class="highlight"></p>
+        </div>
+        <div class="footer-right">
+            <div class="social-icons">
+                <nav class="sociallink">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.svg" alt="Instagram">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for toggling burger navigation
+
+        const burgerNav = document.querySelector('.burger-nav');
+
+        hamburger.addEventListener('click', () => {
+            burgerNav.classList.toggle('open');
+        });
+    </script>
+
+    <script>
+        const chapters = [
+            {
+                chaptername: "Colegio de Dagupan Chapter",
+                location: "Dagupan City, Philippines",
+                founded: "2020, March 20",
+                membership: 200,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRR47p8Z1kH9gww5rfkH4nSqhu5pxVwsDQg&s"
+            },
+            {
+                chaptername: "St. Mary's University Chapter",
+                location: "Bayombong, Nueva Vizcaya, Philippines",
+                founded: "2013, September 4",
+                membership: 500,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKK6TT4vryxkWAhF6IDiBbXnozdCcuD9OvUA&s"
+            },
+            {
+                chaptername: "Aurora State College of Technology Chapter",
+                location: "Baler, Aurora, Philippines",
+                founded: "2018, March 6",
+                membership: 300,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpw6FhrWuvAbPFitgl4e1U8BFmBm5qwkr_Sg&s"
+            },
+            {
+                chaptername: "PNTC Chapter",
+                location: "Dasmarinas, Cavite, Philippines",
+                founded: "2022, September 21",
+                membership: 700,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy7GAs9Zl1ApaW-E52tzk_DqnGM63afPQyzg&s"
+            },
+            {
+                chaptername: "Aquinas University Chapter",
+                location: "Legazpi City, Albay, Philippines",
+                founded: "2013, November 19",
+                membership: 900,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS9PrEcPWPxaKZT0706mnA4c8995PdWFvQsg&s"
+            },
+            {
+                chaptername: "Iloilo Doctors College Chapter",
+                location: "Molo, Iloilo City, Philippines",
+                founded: "2016, July 29",
+                membership: 250,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT88vi4b8qu_IPlJUAbHsrEDIhhw_SVrq9qZw&s"
+            },
+            {
+                chaptername: "Siliman University Chapter",
+                location: "Dumaguete City, Negros Occidental",
+                founded: "2020, January 3",
+                membership: 350,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gbCS72i2zyJyNEDDg96VwqnxVYlBmbyu8LIZER4JEiRLoLOcExJMsxWu6nYE6hUnb9c&usqp=CAU"
+            },
+            {
+                chaptername: "Divine Word College Chapter",
+                location: "Tacloban City, Leyte, Philippines",
+                founded: "2019, January 8",
+                membership: 150,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6ZF87Qi461OeYwfiyBvYJ3R9ei-k-uhYn5ITQNxI6hJrlU7dXUKq-Q2qd5zzZdwVGKk&usqp=CAU"
+            },
+            {
+                chaptername: "TUP Manila Chapter",
+                location: "Manila City,NCR, Philippines",
+                founded: "1991, December 4",
+                membership: 150,
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOW89xXoxvUwKtVA6c1eKLgmKV1j1dmYHb5g&s"
+            },
+        ];
+
+        // Function to create a chapter card
+        function createChapterCard(chapter) {
+            const card = document.createElement("figure");
+            card.innerHTML = `
+                        <img src="${chapter.imageUrl}" alt="${chapter.chaptername}" loading="lazy">
+                        <figcaption>
+                            <h3>${chapter.chaptername}</h3>
+                            <p>Location: ${chapter.location}</p>
+                            <p>Founded: ${chapter.founded}</p>
+                            <p>Membership: ${chapter.membership.toLocaleString()} members</p>
+                        </figcaption>
+                    `;
+            return card;
+        }
+
+        // Function to display chapters based on a filter function
+        function displayChapters(filterFn) {
+            const gallery = document.getElementById("gallery");
+            gallery.innerHTML = "";
+            chapters.filter(filterFn).forEach(chapter => {
+                const card = createChapterCard(chapter);
+                gallery.appendChild(card);
+            });
+        }
+
+        // Filter functions
+        const filters = {
+            all: () => true,
+            old: chapter => new Date(chapter.founded.split(", ")[0]).getFullYear() < 2015,
+            new: chapter => new Date(chapter.founded.split(", ")[0]).getFullYear() > 2015,
+            large: chapter => chapter.membership > 250,
+            small: chapter => chapter.membership < 250
+        };
+
+        // Event listener for navigation
+        document.querySelectorAll("nav a").forEach(link => {
+            link.addEventListener("click", (event) => {
+                event.preventDefault();
+                const filterKey = event.target.textContent.toLowerCase();
+                displayChapters(filters[filterKey]);
+            });
+        });
+
+        // Initial display of all chapters
+        displayChapters(filters.all);
+
+        // Existing functions to set current year and last modified date
+        function setCurrentYear() {
+            const currentYearSpan = document.getElementById('currentyear');
+            const currentYear = new Date().getFullYear();
+            currentYearSpan.textContent = currentYear;
+        }
+
+        function setLastModified() {
+            const lastModifiedParagraph = document.getElementById('lastModified');
+            const lastModified = document.lastModified;
+            lastModifiedParagraph.textContent = `Last Modified: ${lastModified}`;
+        }
+
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('nav ul');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+
+        setCurrentYear();
+        setLastModified();
+    </script>
+</body>
+
+</html>
